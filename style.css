@@ -4,6 +4,8 @@ body{
     padding: 0px;
 }
 
+/* HEADER */
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -28,6 +30,8 @@ body{
     margin-right: 150px;
 }
 
+/* NAV */
+
 .navega{
     color: rgb(255, 255, 255);
     display: flex;
@@ -43,6 +47,8 @@ a{
     color: white;
 }
 
+/* MAIN */ 
+
 main{
     display: flex;
     justify-content: space-between;
@@ -54,12 +60,7 @@ main{
 }
 
 .sect{
-    color: rgb(0, 0, 0);
     width: 1200px;
-}
-
-h2{
-    margin-bottom: 1px;
 }
 
 .descri_sobre{
@@ -114,6 +115,8 @@ h2{
     flex-shrink: 0px;
 }
 
+/*ASIDE */
+
 .lateral{
     color: #000000;
     display: flex;
@@ -132,7 +135,6 @@ h2{
     height: 200px;
     margin-top: 15px;
     background-color: white;
-    flex-shrink: 0px;
 }
 
 .caça{
@@ -143,7 +145,6 @@ h2{
     height: 200px;
     margin-top: 15px;
     background-color: white;
-    flex-shrink: 0px;
 }
 
 .viagem{
@@ -154,13 +155,14 @@ h2{
     height: 200px;
     margin-top: 15px;
     background-color: white;
-    flex-shrink: 0px;
 }
 
 .ajuste{
     margin-top: 60px;
     width: 175px;
 }
+
+/* FORMULARIO */
 
 .formulario{
     display: flex;
@@ -205,6 +207,7 @@ textarea{
     height: 50px;
 }
 
+/* FOOTER */
 
 footer{
     
