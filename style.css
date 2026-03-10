@@ -1,0 +1,219 @@
+body{
+    background-color: #eeeeee;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6870e7;
+    height: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.navega{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6870e7;
+    height: 30px;
+    margin-top: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    height: 2325px;
+    margin-top: 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sect{
+    color: rgb(0, 0, 0);
+    width: 1200px;
+}
+
+h2{
+    margin-bottom: 1px;
+}
+
+.descri_sobre{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.artigo{
+    display: flex;
+}
+
+.titulo{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.descri{
+    font-size:18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 290px;  
+    flex-shrink: 0;
+}
+
+.barra{
+    background-color: #6870e7;
+    height: 1px;
+    width: 1680px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 100px;
+}
+
+.imgsobre{
+    border-radius: 5%;
+    margin-left: 300px;
+}
+
+.imgnoticiaprin{
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 5%;
+    width: 700px;
+}
+
+.imgnoticia{
+    margin-left: 35px;
+    width: 500px;
+    border-radius: 5%;
+    flex-shrink: 0px;
+}
+
+.lateral{
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 750px;
+    background-color: eeeeee;
+    margin-top: 20px;
+}
+
+.bolo{
+    border-radius: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    background-color: white;
+    flex-shrink: 0px;
+}
+
+.caça{
+    border-radius: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    background-color: white;
+    flex-shrink: 0px;
+}
+
+.viagem{
+    border-radius: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    background-color: white;
+    flex-shrink: 0px;
+}
+
+.ajuste{
+    margin-top: 60px;
+    width: 175px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column; 
+    padding: 5px;
+    border: 1px solid #6870e7;  
+}
+input #nome_usuario, #email_usuario, #senha_usuario, #telefone_usuario{
+    width: 350px;
+    margin-bottom: 7px;
+}
+
+.sexo_u{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.label_sexo{
+    padding-left: 30px;
+}
+
+.envio{
+    margin-bottom: 5px;
+}
+
+.texto{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+textarea{
+    width: 280px;
+    height: 50px;
+}
+
+
+footer{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6870e7;
+    color: #FFFFFF;
+    font-size: 25px;
+    height: 100px;
+}
+
